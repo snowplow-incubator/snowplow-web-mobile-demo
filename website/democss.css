@@ -1,0 +1,24 @@
+.gradient-main {
+  background: linear-gradient(#202060, #6738b8);
+}
+
+.gradient-second {
+  background: linear-gradient(#0e9ba4, #6738b8);
+}
+
+html,
+body {
+  /* border: 2px solid green; */
+  margin: 0;
+  height: 100%;
+}
+
+div {
+  /* border: 2px solid white !important; */
+}
+
+.img-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
