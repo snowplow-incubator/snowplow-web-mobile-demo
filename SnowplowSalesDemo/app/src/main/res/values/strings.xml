@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Snowplow Demo</string>
+    <string name="todo">TODO</string>
+    <string name="unlock_the_power_of_behavioural_data">What is behavioural data management?</string>
+</resources>
