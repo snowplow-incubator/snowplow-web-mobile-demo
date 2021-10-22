@@ -15,7 +15,7 @@ Both apps are very simple and almost identical.
 
 ### Web App
 
-The Web app can be [accessed here](https://snowplow-incubator.github.io/snowplow-web-mobile-demo).
+The Web app can be [accessed here](http://snowplow-web-mobile-demo-public.s3.us-east-2.amazonaws.com/index.html?response-content-disposition[…]6c682a3232aae0a22c6cbea887e6e75265f0996).
 
 All page events are automatically tracked.
 
