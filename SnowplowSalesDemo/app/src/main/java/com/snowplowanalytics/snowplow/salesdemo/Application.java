@@ -45,7 +45,7 @@ public class Application extends android.app.Application {
                 .threadPoolSize(20)
                 .emitRange(500)
                 .byteLimitPost(52000);
-        NetworkConfiguration networkConfiguration = new NetworkConfiguration("https://50cb-90-64-209-27.ngrok.io", HttpMethod.GET);
+        NetworkConfiguration networkConfiguration = new NetworkConfiguration("http://3.143.116.199", HttpMethod.GET);
         SessionConfiguration sessionConfiguration = new SessionConfiguration(
                 new TimeMeasure(30, TimeUnit.SECONDS),
                 new TimeMeasure(30, TimeUnit.SECONDS)
