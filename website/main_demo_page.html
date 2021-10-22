@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snowplow Demo</title>
+    <title>main</title>
 
     <link
       rel="stylesheet"
@@ -19,7 +19,14 @@
       href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css"
     />
 
-    <link rel="stylesheet" href="/democss.css" />
+    <link rel="stylesheet" href="/website/democss.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
 
     <script type="text/javascript" async="1">
       (function (p, l, o, w, i, n, g) {
@@ -44,7 +51,7 @@
         "snowplow"
       );
 
-      snowplow("newTracker", "sp", "7068-90-64-209-27.ngrok.io", {
+      snowplow("newTracker", "sp", "3.143.116.199", {
         appId: "demo-website",
         cookieSecure: false,
         cookieSameSite: "Lax",
@@ -59,12 +66,11 @@
   </head>
   <body class="gradient-main text-center">
     <div class="container">
+      <img class="img-center mb-2 logo" src="/website/snowplow-logo.png" />
       <div class="hero">
         <div class="hero-body text-light text-center">
-          <h1>Snowplow</h1>
-          <p>Our demo website</p>
-          <img class="img-center mb-2" src="/header-square.png" />
-          <a class="btn btn-lg btn-error" href="/second_page.html"
+          <img class="img-center mb-2" src="/website/header-square.png" />
+          <a class="btn" href="/website/second_page.html"
             >WHAT IS BEHAVIORAL DATA MANAGEMENT?</a
           >
         </div>

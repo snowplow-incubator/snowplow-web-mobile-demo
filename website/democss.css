@@ -11,6 +11,7 @@ body {
   /* border: 2px solid green; */
   margin: 0;
   height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 div {
@@ -21,4 +22,33 @@ div {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.logo {
+  width: 50%;
+}
+
+a {
+  /* border: 1px solid yellow !important; */
+  margin: 20px;
+  background-color: #ff6372 !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+
+.btn {
+  font-size: 30px !important;
+  padding-top: 25px !important;
+  padding-bottom: 50px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.hero {
+  padding-top: 0;
+}
+
+p {
+  font-size: 30px;
+  margin: 20px;
 }
