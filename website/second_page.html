@@ -62,6 +62,17 @@
         heartbeatDelay: 10,
       });
       snowplow("trackPageView");
+
+      let messageSchema = {
+        schema:
+          "iglu:com.snowplowanalytics.snowplow/web_mobile_demo/jsonschema/1-0-0",
+        data: {
+          greeting: "Hello from the web!",
+          message:
+            "Snowplow data is always in the same format, you won't need different data models for web and mobile",
+        },
+      };
+      snowplow("trackSelfDescribingEvent", messageSchema);
     </script>
   </head>
   <body class="gradient-second text-center">

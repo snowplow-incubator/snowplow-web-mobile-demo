@@ -16,7 +16,9 @@
     },
     "message": {
       "description": "Statement about Snowplow data",
-      "type": ["string"],
+      "type": [
+        "string"
+      ],
       "maxLength": 255
     }
   },
