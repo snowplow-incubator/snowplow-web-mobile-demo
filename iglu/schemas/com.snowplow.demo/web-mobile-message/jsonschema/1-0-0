@@ -1,0 +1,26 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "description": "Snowplow demo web and mobile",
+  "self": {
+    "vendor": "com.snowplow.demo",
+    "name": "web-mobile-message",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "greeting": {
+      "description": "Introductory greeting",
+      "type": "string",
+      "maxLength": 255
+    },
+    "message": {
+      "description": "Statement about Snowplow data",
+      "type": [
+        "string"
+      ],
+      "maxLength": 255
+    }
+  },
+  "additionalProperties": false
+}
